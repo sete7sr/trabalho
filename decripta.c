@@ -25,8 +25,10 @@ int main() {
 
     for (int i = 0; i < num_casos; i++) {
         int b;
+        printf("\nDigite o valor para B: ");
         scanf("%d", &b);
 
+        printf("\ndigite a mensagem: ");
         char mensagem[101];
         scanf("%s", mensagem);
 
