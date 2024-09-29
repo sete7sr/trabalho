@@ -21,6 +21,7 @@ int func_val(int x, int b) {
 
 int main() {
     int num_casos;
+    printf("digite o numero de mensagens a ser decriptada: ");
     scanf("%d", &num_casos);
 
     for (int i = 0; i < num_casos; i++) {
